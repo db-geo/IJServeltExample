@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="676.0">fr.imt.cepi.servlet.filters.AuthenticationFilter</node>
+    <node x="0.0" y="409.0">fr.imt.cepi.servlet.RegisterServlet</node>
+    <node x="437.0" y="654.0">fr.imt.cepi.servlet.listeners.AppContextListener</node>
+    <node x="557.0" y="0.0">javax.servlet.http.HttpServlet</node>
+    <node x="389.0" y="409.0">fr.imt.cepi.servlet.LogoutServlet</node>
+    <node x="778.0" y="409.0">fr.imt.cepi.servlet.LoginServlet</node>
+    <node x="1167.0" y="387.0">fr.imt.cepi.servlet.errorhandler.AppErrorHandler</node>
+    <node x="0.0" y="529.0">javax.servlet.Filter</node>
+    <node x="437.0" y="529.0">javax.servlet.ServletContextListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.imt.cepi.servlet.errorhandler.AppErrorHandler" target="javax.servlet.http.HttpServlet">
+      <point x="0.0" y="-48.5" />
+      <point x="1369.0" y="357.0" />
+      <point x="926.25" y="357.0" />
+      <point x="158.25" y="168.5" />
+    </edge>
+    <edge source="fr.imt.cepi.servlet.listeners.AppContextListener" target="javax.servlet.ServletContextListener">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="fr.imt.cepi.servlet.LoginServlet" target="javax.servlet.http.HttpServlet">
+      <point x="0.0" y="-26.5" />
+      <point x="962.5" y="367.0" />
+      <point x="820.75" y="367.0" />
+      <point x="52.75" y="168.5" />
+    </edge>
+    <edge source="fr.imt.cepi.servlet.filters.AuthenticationFilter" target="javax.servlet.Filter">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="fr.imt.cepi.servlet.RegisterServlet" target="javax.servlet.http.HttpServlet">
+      <point x="0.0" y="-26.5" />
+      <point x="184.5" y="357.0" />
+      <point x="609.75" y="357.0" />
+      <point x="-158.25" y="168.5" />
+    </edge>
+    <edge source="fr.imt.cepi.servlet.LogoutServlet" target="javax.servlet.http.HttpServlet">
+      <point x="0.0" y="-26.5" />
+      <point x="573.5" y="367.0" />
+      <point x="715.25" y="367.0" />
+      <point x="-52.75" y="168.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="459.0" y="356.5" />
+  <SelectedNodes>
+    <node>javax.servlet.ServletContextListener</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
